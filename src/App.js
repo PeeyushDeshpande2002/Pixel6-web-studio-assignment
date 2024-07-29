@@ -2,7 +2,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import CustomerList from "./pages/CustomerList";
 import { Container } from "@mui/material";
 import { CustomerFormWrapper } from "./pages/CustomerFormWrapper";
-
+import './App.css';
 function App() {
   return (
     <BrowserRouter>
